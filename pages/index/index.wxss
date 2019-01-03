@@ -1,0 +1,32 @@
+/* pages/index/index.wxss */
+page {
+  padding: 0 40rpx;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20rpx 0;
+  padding: 30rpx;
+  background-color: #fff;
+  border-radius: 4rpx;
+  overflow: hidden;
+  font-size: 32rpx;
+}
+
+.navigator-arrow {
+  display: inline-block;
+  height: 18px;
+}
+
+.navigator-arrow:after {
+  content: " ";
+  display: inline-block;
+  height: 18rpx;
+  width: 18rpx;
+  border-width: 2rpx 2rpx 0 0;
+  border-color: #888;
+  border-style: solid;
+  transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+}

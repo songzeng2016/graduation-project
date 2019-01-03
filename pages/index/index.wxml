@@ -1,0 +1,13 @@
+<!--pages/index/index.wxml-->
+<navigator url='/pages/image/image' class='list'>
+  <text>查看图片</text>
+  <view class='navigator-arrow'></view>
+</navigator>
+<navigator url='/pages/set/set' class='list'>
+  <text>修改手机号码</text>
+  <view class='navigator-arrow'></view>
+</navigator>
+<navigator url='/pages/set/set' class='list'>
+  <text>修改 WiFi 信息</text>
+  <view class='navigator-arrow'></view>
+</navigator>
