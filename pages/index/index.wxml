@@ -3,11 +3,11 @@
   <text>查看图片</text>
   <view class='navigator-arrow'></view>
 </navigator>
-<navigator url='/pages/set/set' class='list'>
+<navigator url='/pages/set/set?type=phone' class='list'>
   <text>修改手机号码</text>
   <view class='navigator-arrow'></view>
 </navigator>
-<navigator url='/pages/set/set' class='list'>
+<navigator url='/pages/set/set?type=wifi' class='list'>
   <text>修改 WiFi 信息</text>
   <view class='navigator-arrow'></view>
 </navigator>

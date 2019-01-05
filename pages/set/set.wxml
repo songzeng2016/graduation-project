@@ -1,2 +1,6 @@
 <!--pages/set/set.wxml-->
-<text>pages/set/set.wxml</text>
+<form bindsubmit='submit'>
+  <input class='input' name='value' placeholder="修改{{title}}"></input>
+
+  <button class='button' loading='{{loading}}' type='primary' form-type='submit'>确定</button>
+</form>

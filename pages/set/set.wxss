@@ -1,1 +1,8 @@
 /* pages/set/set.wxss */
+
+.input {
+  margin: 80rpx 0;
+  padding: 20rpx;
+  background: #fff;
+  border-radius: 10rpx;
+}
