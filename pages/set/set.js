@@ -37,10 +37,20 @@ Page({
     wx.setNavigationBarTitle({
       title: `修改${title}`,
     });
+    this.getInfo();
   },
-
+  getInfo() {
+    app.$get('/getInfo', {
+        type: this.type
+      })
+      .then(json => {
+        console.log(json);
+      });
+  },
   submit(e) {
-    const {value} = e.detail.value;
+    const {
+      value
+    } = e.detail.value;
     const reqData = {
       type: this.type,
       value,
@@ -49,7 +59,7 @@ Page({
     this.setData({
       loading: true,
     });
-    app.$get('/set', reqData)
+    app.$get('/setInfo', reqData)
       .then(json => {
         this.setData({
           loading: false,
