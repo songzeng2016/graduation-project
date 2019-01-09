@@ -6,5 +6,6 @@ page {
 
 .image {
   display: block;
-  margin: 20px auto 50px;
+  margin: 20px auto;
+  background: #fff;
 }

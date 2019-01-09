@@ -9,6 +9,7 @@ Page({
   data: {
     type: '',
     title: '',
+    value: '',
     loading: false,
   },
 
@@ -45,6 +46,9 @@ Page({
       })
       .then(json => {
         console.log(json);
+        // this.setData({
+        //   value: json.data.value,
+        // });
       });
   },
   submit(e) {

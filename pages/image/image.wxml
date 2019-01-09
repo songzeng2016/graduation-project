@@ -1,3 +1,4 @@
 <!--pages/image/image.wxml-->
 <image class='image' src='{{imgSrc}}'></image>
+<image class='image' wx:for='{{list}}' wx:key='item' src='{{host}}{{item}}'></image>
 <text>下拉可刷新图片</text>
