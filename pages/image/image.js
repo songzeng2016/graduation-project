@@ -7,28 +7,31 @@ Page({
    * 页面的初始数据
    */
   data: {
-    imgSrc: 'http://118.25.50.176:8080/images/image.png',
-    host: 'http://118.25.50.176:8080/images/',
     list: [],
-  },
-  updateImgSrc() {
-    this.setData({
-      imgSrc: 'http://118.25.50.176:8080/images/image.png?t=' + Date.now(),
-    })
   },
 
   getImage(refresh) {
     app.$get('/getImage')
       .then(json => {
         console.log(json);
+        const list = json.data.value.map(item => {
+          return app.host + '/images/' + item;
+        });
         this.setData({
-          list: json.data.value,
+          list,
         });
 
         refresh && setTimeout(() => {
           wx.stopPullDownRefresh();
         }, 500);
       });
+  },
+
+  preview(e) {
+    wx.previewImage({
+      current: e.target.dataset.url, // 当前显示图片的http链接
+      urls: this.data.list // 需要预览的图片http链接列表
+    })
   },
 
   /**

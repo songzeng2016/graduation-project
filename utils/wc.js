@@ -1,5 +1,6 @@
 // const host = 'http://ymysz.cn:8080';
-const host = 'http://127.0.0.1:8080';
+// const host = 'http://127.0.0.1:8080';
+const host = 'https://songzeng1994.cn';
 
 class Wc {
   constructor() {

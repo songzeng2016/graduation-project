@@ -1,11 +1,23 @@
 /* pages/image/image.wxss */
 page {
+  height: auto;
   background: #eee;
   text-align: center;
 }
 
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+}
+
 .image {
   display: block;
-  margin: 20px auto;
+  width: 48%;
+  height: 120px;
+  margin: 10px 0;
   background: #fff;
+  box-sizing: border-box;
 }

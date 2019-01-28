@@ -8,5 +8,6 @@ App({
   globalData: {
     userInfo: null
   },
+  host: wc.host,
   $get: wc.get,
 })

@@ -7,7 +7,11 @@
   <text>修改手机号码</text>
   <view class='navigator-arrow'></view>
 </navigator>
-<navigator url='/pages/set/set?type=wifi' class='list'>
-  <text>修改 WiFi 信息</text>
+<navigator url='/pages/set/set?type=name' class='list'>
+  <text>修改 WiFi 名称</text>
+  <view class='navigator-arrow'></view>
+</navigator>
+<navigator url='/pages/set/set?type=password' class='list'>
+  <text>修改 WiFi 密码</text>
   <view class='navigator-arrow'></view>
 </navigator>

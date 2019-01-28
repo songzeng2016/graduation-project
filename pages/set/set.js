@@ -26,8 +26,11 @@ Page({
       case 'phone':
         title = '手机号码';
         break;
-      case 'wifi':
-        title = 'wifi';
+      case 'name':
+        title = 'wifi 名称';
+        break;
+      case 'password':
+        title = 'wifi 密码';
         break;
     }
 
@@ -46,9 +49,9 @@ Page({
       })
       .then(json => {
         console.log(json);
-        // this.setData({
-        //   value: json.data.value,
-        // });
+        this.setData({
+          value: json.data.value,
+        });
       });
   },
   submit(e) {
