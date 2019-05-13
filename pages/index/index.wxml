@@ -15,3 +15,11 @@
   <text>修改 WiFi 密码</text>
   <view class='navigator-arrow'></view>
 </navigator>
+<navigator url='/pages/set/set?type=ip' class='list'>
+  <text>修改 IP 地址</text>
+  <view class='navigator-arrow'></view>
+</navigator>
+<navigator url='/pages/mode/mode' class='list'>
+  <text>切换模式</text>
+  <view class='navigator-arrow'></view>
+</navigator>

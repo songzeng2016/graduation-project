@@ -1,0 +1,4 @@
+<!--pages/mode/mode.wxml-->
+
+<button bindtap='switchMode' data-mode='!'>家庭模式</button>
+<button bindtap='switchMode' data-mode='*'>户外模式</button>
