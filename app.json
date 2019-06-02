@@ -2,6 +2,7 @@
   "pages": [
     "pages/index/index",
     "pages/image/image",
+    "pages/info/info",
     "pages/set/set",
     "pages/mode/mode"
   ],

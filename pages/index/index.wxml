@@ -3,6 +3,10 @@
   <text>查看图片</text>
   <view class='navigator-arrow'></view>
 </navigator>
+<navigator url='/pages/info/info' class='list'>
+  <text>查看信息</text>
+  <view class='navigator-arrow'></view>
+</navigator>
 <navigator url='/pages/set/set?type=phone' class='list'>
   <text>修改手机号码</text>
   <view class='navigator-arrow'></view>

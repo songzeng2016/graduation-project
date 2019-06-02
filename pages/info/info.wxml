@@ -1,0 +1,20 @@
+<!--pages/info/info.wxml-->
+<view>
+  <text>温度：</text>
+  <view wx:for='{{temp}}' wx:key='item'>
+    <text>时间: {{item.date}}</text>
+    <text> 温度: {{item.value / 10}} °C</text>
+  </view>
+</view>
+
+<view>
+  <text>一氧化碳浓度：</text>
+  <view wx:for='{{co}}' wx:key='item'>
+    <text>时间: {{item.date}}</text>
+    <text> 浓度: {{item.value / 1000}} v</text>
+  </view>
+</view>
+
+<navigator open-type='navigateBack' delta='1'>
+  <button type='primary'>返回</button>
+</navigator>
