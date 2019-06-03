@@ -1,0 +1,4 @@
+/* pages/reset/reset.wxss */
+button {
+  margin-top: 30px;
+}

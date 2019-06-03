@@ -1,0 +1,7 @@
+<!--pages/reset/reset.wxml-->
+<button type='primary' bindtap='reset' data-type='image'>清空图片</button>
+<button type='primary' bindtap='reset' data-type='info'>清空信息</button>
+
+<navigator open-type='navigateBack' delta='1'>
+  <button type='primary'>返回</button>
+</navigator>

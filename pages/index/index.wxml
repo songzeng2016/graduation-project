@@ -27,3 +27,7 @@
   <text>切换模式</text>
   <view class='navigator-arrow'></view>
 </navigator>
+<navigator url='/pages/reset/reset' class='list'>
+  <text>清空数据</text>
+  <view class='navigator-arrow'></view>
+</navigator>

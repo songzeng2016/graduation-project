@@ -4,7 +4,8 @@
     "pages/image/image",
     "pages/info/info",
     "pages/set/set",
-    "pages/mode/mode"
+    "pages/mode/mode",
+    "pages/reset/reset"
   ],
   "window": {
     "backgroundTextStyle": "dark",
